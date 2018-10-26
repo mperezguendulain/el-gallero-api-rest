@@ -1,0 +1,42 @@
+// Customer
+{
+    "id": "987GD9F87GY9DFDASDY8A",
+    "username": "landyzarate",
+    "password": "landy123",
+    "fullName": "Landy Zarate Cruz",
+    "type": "seller",
+    "address": "Pensamientos #205 Col. Acatlima, Huajuapan de León Oaxaca",
+    "contact": {
+        "email": "landyzarate@gmail.com",
+        "cellphone": "9539876543",
+        "landLine": "9536543215"
+    }
+}
+
+//Provider
+{
+    "id": "FSD987F9DS8",
+    "fullName": "Juan Alvarez",
+    "email": "juan@gmail.com",
+    "fiscalData": {
+        "rfc": "9D8S7G9D8", //Validar que solo se permita 12 o 13 caracteres
+        "businessName": "Negocio",
+        "address": "Calle Lopez Mateos #534, Col. Centro, Oaxaca, Oaxaca",
+        "zipCode": "68000",
+        "contactPhone": "3216549875"
+    }
+}
+
+//Provider
+{
+    "id": "9D8SYF9DSY8UF9",
+    "fullName": "Roberto Cotreras",
+    "products": [
+        "paracetamol",
+        "lomotil",
+        "jeringas"
+    ],
+    "cellphone": "654983518",
+    "landline": "3564684312",
+    "address": "Calle Madrazo, #54 Col. Los Heroes, Puebla"
+}

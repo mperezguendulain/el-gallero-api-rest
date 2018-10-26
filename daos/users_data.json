@@ -1,0 +1,26 @@
+{
+    "username": "mperezguendulain",
+    "password": "123456",
+    "fullName": "Martín Alejandro Pérez Güendulain",
+    "type": "admin",
+    "address": "Victoria #18, Col. Centro, Huajuapan de León, Oaxaca",
+    "contact": {
+        "email": "mperezguendulain@gmail.com",
+        "cellphone": "9531546147",
+        "landLine": "2878717101"
+    }
+}
+
+
+{
+    "username": "landyzarate",
+    "password": "landy123",
+    "fullName": "Landy Zarate Cruz",
+    "type": "seller",
+    "address": "Pensamientos #205 Col. Acatlima, Huajuapan de León Oaxaca",
+    "contact": {
+        "email": "landyzarate@gmail.com",
+        "cellphone": "9539876543",
+        "landLine": "9536543215"
+    }
+}
