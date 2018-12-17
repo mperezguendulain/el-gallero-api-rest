@@ -14,7 +14,7 @@ type CustomerDAO struct {
 // FindAll get all customers in Customers Collection
 func (cd *CustomerDAO) FindAll() ([]models.Customer, error) {
 
-	var customers []models.Customer
+	customers := make([]models.Customer, 0)
 	err := cd.Collection.Find(bson.M{}).All(&customers)
 	return customers, err
 

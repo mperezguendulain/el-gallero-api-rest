@@ -14,7 +14,7 @@ type ProviderDAO struct {
 // FindAll get all providers in Providers Collection
 func (pd *ProviderDAO) FindAll() ([]models.Provider, error) {
 
-	var providers []models.Provider
+	providers := make([]models.Provider, 0)
 	err := pd.Collection.Find(bson.M{}).All(&providers)
 	return providers, err
 

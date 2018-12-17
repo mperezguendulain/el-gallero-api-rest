@@ -9,7 +9,7 @@ import (
 
 var userDao *daos.UserDAO
 
-// Inicializa el módulo
+// Init the module
 func init() {
 
 	const userCollection string = "users"

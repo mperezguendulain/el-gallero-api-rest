@@ -1,4 +1,4 @@
-// Customer
+// User
 {
     "id": "987GD9F87GY9DFDASDY8A",
     "username": "landyzarate",
@@ -13,13 +13,13 @@
     }
 }
 
-//Provider
+// Customer
 {
-    "id": "FSD987F9DS8",
+    "id": "5c1696692652746ffec7b6c4",
     "fullName": "Juan Alvarez",
-    "email": "juan@gmail.com",
+    "phone": "01800654321987",
     "fiscalData": {
-        "rfc": "9D8S7G9D8", //Validar que solo se permita 12 o 13 caracteres
+        "rfc": "9D8S7G9D8",
         "businessName": "Negocio",
         "address": "Calle Lopez Mateos #534, Col. Centro, Oaxaca, Oaxaca",
         "zipCode": "68000",
@@ -32,11 +32,23 @@
     "id": "9D8SYF9DSY8UF9",
     "fullName": "Roberto Cotreras",
     "products": [
-        "paracetamol",
-        "lomotil",
-        "jeringas"
+        { "name": "paracetamol", "cost": 99.9 },
+        { "name": "lomotil", "cost": 99.9 },
+        { "name": "jeringas", "cost": 99.9 }
     ],
     "cellphone": "654983518",
     "landline": "3564684312",
     "address": "Calle Madrazo, #54 Col. Los Heroes, Puebla"
+}
+
+{
+    "kind": "pelea",
+    "age": 2,
+    "bloodline": "negra",
+    "characteristics": "Pinche gallo más perron",
+    "colors": {
+        "bolilla": "verde",
+        "legColour": "amarillo",
+        "colorOfGuides": "rojo"
+    }
 }

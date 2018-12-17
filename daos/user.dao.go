@@ -14,7 +14,7 @@ type UserDAO struct {
 // FindAll get all users in Users Collection
 func (ud *UserDAO) FindAll() ([]models.User, error) {
 
-	var users []models.User
+	users := make([]models.User, 0)
 	err := ud.Collection.Find(bson.M{}).Select(bson.M{"password": 0}).All(&users)
 	return users, err
 
