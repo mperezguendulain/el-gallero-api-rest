@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/mperezguendulain/el-gallero-api-rest/errors"
@@ -12,6 +13,10 @@ import (
 
 // LoginHandler handle the login request.
 func LoginHandler(c echo.Context) error {
+
+	fmt.Println(`================`)
+	fmt.Println(`LOGIN HANDLER`)
+	fmt.Println(`================`)
 
 	credential := new(jwtserv.Credential)
 	if c.Bind(credential) != nil {

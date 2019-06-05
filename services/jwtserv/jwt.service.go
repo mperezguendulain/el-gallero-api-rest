@@ -3,7 +3,6 @@ package jwtserv
 import (
 	"io/ioutil"
 	"log"
-	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
 )
@@ -37,7 +36,6 @@ func GetJWT(username string, role string) (string, error) {
 	claims := token.Claims.(jwt.MapClaims)
 	claims["username"] = username
 	claims["role"] = "admin"
-	claims["exp"] = time.Now().Add(time.Hour * 72).Unix()
 
 	// Generate encoded token and send it as response.
 	stringToken, err := token.SignedString(SecretKey)

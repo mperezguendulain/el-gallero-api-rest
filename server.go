@@ -16,6 +16,15 @@ func main() {
 
 	e := echo.New()
 
+	e.Use(
+		middleware.CORSWithConfig(
+			middleware.CORSConfig {
+				AllowOrigins: []string{ "*" },
+				AllowMethods: []string{ "*" },
+			},
+		),
+	)
+
 	// Public Endpoints
 
 	// Login
